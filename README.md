@@ -1,4 +1,10 @@
 # 🎓 Academic Student Management System (ASMS)
+![PHP](https://img.shields.io/badge/PHP-8.x-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white)
+![DataTables](https://img.shields.io/badge/DataTables-0055A4?style=for-the-badge)
+![SweetAlert2](https://img.shields.io/badge/SweetAlert2-FF69B4?style=for-the-badge)
 
 A modern web-based Academic Student Management System developed using PHP Native, MySQL, Bootstrap 5, Chart.js, DataTables, and SweetAlert2. This application provides an intuitive dashboard for managing student records, visualizing academic statistics, and performing complete CRUD operations efficiently.
 
