@@ -12,16 +12,17 @@ A modern web-based Academic Student Management System developed using PHP Native
 
 ## ✨ Features
 
-- 📊 Interactive Dashboard with Chart.js
-- 👨‍🎓 Student Management (CRUD)
-- 🔍 Search & Pagination
-- 📄 Export to Excel
-- 📑 Export to PDF
-- 🖨️ Print Student Data
-- 📱 Responsive User Interface
-- 🔔 SweetAlert2 Notifications
-- 📈 Student Statistics by Major
-- 🎨 Modern Dashboard Design
+- ✅ Secure Login System
+- ✅ Dashboard Analytics
+- ✅ Student Management (CRUD)
+- ✅ Student Statistics
+- ✅ Search & Pagination
+- ✅ Export Excel
+- ✅ Export PDF
+- ✅ Print Data
+- ✅ Responsive Dashboard
+- ✅ SweetAlert2 Notifications
+- ✅ Chart.js Visualization
 
 ---
 
@@ -145,6 +146,14 @@ http://localhost/asms
 **Elsa Ramadhani**
 
 GitHub: https://github.com/ElsaRamadhani
+
+---
+
+## 📄 License
+
+This project is created for educational and portfolio purposes.
+
+© 2026 Elsa Ramadhani
 
 ---
 
