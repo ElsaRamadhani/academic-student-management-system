@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root{
+ --primary:#2563eb;
+ --primary2:#1d4ed8;
+ --bg:#f3f6fb;
+ --white:#ffffff;
+ --text:#1f2937;
+ --muted:#6b7280;
+ --radius:18px;
+ --shadow:0 10px 30px rgba(15,23,42,.08);
+}
+
+*{
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+ font-family:'Poppins',sans-serif;
+}
+
+body{
+ background:var(--bg);
+ color:var(--text);
+}
+
+.sidebar{
+ position:fixed;
+ left:0;
+ top:0;
+ width:260px;
+ height:100vh;
+ background:linear-gradient(180deg,#2563eb,#1e40af);
+ color:#fff;
+ padding:30px 20px;
+ box-shadow:var(--shadow);
+}
+
+.logo{
+ font-size:26px;
+ font-weight:700;
+ text-align:center;
+ margin-bottom:35px;
+}
+
+.sidebar a{
+ display:flex;
+ align-items:center;
+ gap:10px;
+ color:#fff;
+ text-decoration:none;
+ padding:14px 18px;
+ border-radius:12px;
+ margin-bottom:8px;
+ transition:.3s;
+}
+
+.sidebar a:hover,
+.sidebar a.active{
+ background:rgba(255,255,255,.18);
+ transform:translateX(6px);
+}
+
+.content{
+ margin-left:280px;
+ padding:35px;
+}
+
+.topbar{
+ background:#fff;
+ border-radius:18px;
+ padding:18px 24px;
+ display:flex;
+ justify-content:space-between;
+ align-items:center;
+ box-shadow:var(--shadow);
+ margin-bottom:25px;
+}
+
+.card-dashboard{
+ border:none;
+ border-radius:18px;
+ box-shadow:var(--shadow);
+ overflow:hidden;
+ transition:.3s;
+}
+
+.card-dashboard:hover{
+ transform:translateY(-6px);
+}
+
+.card-dashboard .card-body{
+ padding:25px;
+}
+
+.card-title{
+ color:var(--muted);
+ font-size:15px;
+}
+
+.card-number{
+ font-size:34px;
+ font-weight:700;
+ color:var(--primary);
+}
+
+.table{
+ background:#fff;
+ border-radius:18px;
+ overflow:hidden;
+ box-shadow:var(--shadow);
+}
+
+.table thead{
+ background:var(--primary);
+ color:#fff;
+}
+
+.btn{
+ border-radius:10px;
+ font-weight:600;
+}
+
+.form-control{
+ border-radius:12px;
+ padding:12px 14px;
+}
+
+.chart-box{
+ background:#fff;
+ border-radius:18px;
+ padding:25px;
+ box-shadow:var(--shadow);
+}
+
+.login-page{
+ min-height:100vh;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+ background:linear-gradient(135deg,#2563eb,#60a5fa);
+}
+
+.login-card{
+ width:420px;
+ background:rgba(255,255,255,.96);
+ border-radius:20px;
+ padding:35px;
+ box-shadow:0 20px 45px rgba(0,0,0,.18);
+}
+
+@media(max-width:992px){
+ .sidebar{
+   width:100%;
+   height:auto;
+   position:relative;
+ }
+ .content{
+   margin-left:0;
+   padding:20px;
+ }
+}
+.dataTables_wrapper{
+
+    margin-top:20px;
+    
+    }
+    
+    .dataTables_filter input{
+    
+    border-radius:10px!important;
+    
+    padding:8px 12px!important;
+    
+    }
+    
+    .dataTables_length select{
+    
+    border-radius:10px!important;
+    
+    }
+    
+    table.dataTable tbody tr{
+    
+    transition:.3s;
+    
+    }
+    
+    table.dataTable tbody tr:hover{
+    
+    background:#f0f6ff;
+    
+    }
+    
+    .btn{
+    
+    transition:.3s;
+    
+    }
+    
+    .btn:hover{
+    
+    transform:translateY(-3px);
+    
+    box-shadow:0 10px 20px rgba(0,0,0,.1);
+    
+    }
+    /* =======================================
+   CARD PREMIUM
+======================================= */
+
+.card-dashboard{
+
+    transition:.35s;
+    
+    cursor:pointer;
+    
+    overflow:hidden;
+    
+    position:relative;
+    
+    }
+    
+    .card-dashboard:hover{
+    
+    transform:translateY(-8px);
+    
+    box-shadow:0 20px 35px rgba(0,0,0,.12);
+    
+    }
+    
+    .card-dashboard::before{
+    
+    content:'';
+    
+    position:absolute;
+    
+    width:140px;
+    
+    height:140px;
+    
+    background:rgba(255,255,255,.08);
+    
+    border-radius:50%;
+    
+    right:-40px;
+    
+    top:-40px;
+    
+    }
+    
+    .card-number{
+    
+    font-size:42px;
+    
+    font-weight:700;
+    
+    margin-top:8px;
+    
+    }
+    
+    .card-title{
+    
+    font-weight:500;
+    
+    color:#777;
+    
+    }
+    
+    .card-dashboard i{
+    
+    transition:.3s;
+    
+    }
+    
+    .card-dashboard:hover i{
+    
+    transform:scale(1.2);
+    
+    }
+    /* ==========================
+   PIE CHART
+========================== */
+
+.chart-box{
+
+    background:#fff;
+
+    padding:25px;
+
+    border-radius:18px;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.chart-box:hover{
+
+    transform:translateY(-5px);
+
+}
+
+#pieChart{
+
+    max-height:300px;
+
+}
